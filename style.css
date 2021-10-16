@@ -3,13 +3,14 @@ h1 {
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .header-logo {
     display: flex;
     font-family: Garamond, Georgia, serif;
+    align-items: center;
 }
 
 .header-links {
@@ -19,22 +20,37 @@ h1 {
 }
 
 a:link, a:visited {
-    color: #FFF;
+    color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
 }
 
-.mid-info-main {
+.mid-info {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     font-size: 24px;
     padding-top: 10px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+}
+
+.mid-info-text {
+    font-size: 48px; 
+    font-weight: bold;
 }
 
 .mid-info-subtext {
     font-size: 18px;
+    width: 50%;
+    font-weight: normal;
 }
 
+.mid-info-img {
+    display: flex;
+    justify-content: right;
+}
 
 h2 {
     display: flex;
@@ -44,10 +60,22 @@ h2 {
 .img-set {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
 }
 
-h1, .mid-info-main, footer {
+button {
+    color:#F9FAF8 ;
+    background-color: #3882f6;
+    border-radius: 45px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.caption {
+    display: flex;
+}
+
+h1, .mid-info, footer {
     color: #F9FAF8;
     background-color: #1F2937;
 }
