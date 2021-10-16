@@ -1,0 +1,53 @@
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-logo {
+    display: flex;
+    font-family: Garamond, Georgia, serif;
+}
+
+.header-links {
+    display: flex;
+    color: #E5E7EB;
+    gap: 32px;
+}
+
+a:link, a:visited {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.mid-info-main {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.mid-info-subtext {
+    font-size: 18px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-set {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+h1, .mid-info-main, footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
