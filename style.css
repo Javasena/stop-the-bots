@@ -1,11 +1,14 @@
+body {
+    margin: 0;
+}
+
 h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-right: 120px;
-    padding-bottom: 10px;
     padding-left: 120px;    
     margin: 0;
 }
@@ -34,12 +37,12 @@ a:link, a:visited {
     font-size: 24px;
     padding-top: 10px;
     padding-right: 120px;
-    padding-bottom: 55px;
+    padding-bottom: 10px;
     padding-left: 120px;
 }
 
 .mid-info-text {
-    font-size: 36px; 
+    font-size: 28px; 
     font-weight: bold;
 }
 
@@ -52,6 +55,7 @@ a:link, a:visited {
 .mid-info-img {
     display: flex;
     justify-content: right;
+    margin-bottom: 8px;
 }
 
 h2 {
@@ -70,8 +74,9 @@ h2 {
 }
 
 .caption {
-    gap: 30px;
+    justify-content: center;
     padding-bottom: 45px;
+    gap: 65px;
 }
 
 .attack-imgs {
@@ -83,16 +88,17 @@ h2 {
 }
 
 .quote-box {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: italic;
     color: #1F2937;
     background-color: #E5E7EB;
-    padding: 45px;
+    padding: 5px;
 }
 
 .author {
     display: flex;
     justify-content: right;
+    font-size: 24px;
 }
 
 .lower-banner {
