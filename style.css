@@ -3,8 +3,11 @@ h1 {
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
-    padding-left: 120px;
+    padding-top: 10px;
     padding-right: 120px;
+    padding-bottom: 10px;
+    padding-left: 120px;    
+    margin: 0;
 }
 
 .header-logo {
@@ -15,7 +18,6 @@ h1 {
 
 .header-links {
     display: flex;
-    color: #E5E7EB;
     gap: 32px;
 }
 
@@ -32,12 +34,12 @@ a:link, a:visited {
     font-size: 24px;
     padding-top: 10px;
     padding-right: 120px;
-    padding-bottom: 10px;
+    padding-bottom: 55px;
     padding-left: 120px;
 }
 
 .mid-info-text {
-    font-size: 48px; 
+    font-size: 36px; 
     font-weight: bold;
 }
 
@@ -55,24 +57,75 @@ a:link, a:visited {
 h2 {
     display: flex;
     justify-content: center;
+    margin: 45px;
+}
+
+.img-set, .caption {
+    display: flex;
+    justify-content: center;
 }
 
 .img-set {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
-button {
-    color:#F9FAF8 ;
-    background-color: #3882f6;
-    border-radius: 45px;
-    font-weight: bold;
-    padding: 5px;
+    gap: 75px;
 }
 
 .caption {
+    gap: 30px;
+    padding-bottom: 45px;
+}
+
+.attack-imgs {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 100px; 
+    height: auto;
+    max-height: 100px;
+}
+
+.quote-box {
+    font-size: 36px;
+    font-weight: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 45px;
+}
+
+.author {
     display: flex;
+    justify-content: right;
+}
+
+.lower-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-right: 160px;
+    margin-bottom: 45px;
+    margin-left: 160px;
+    padding: 15px;
+}
+
+.lower-banner-button {
+    display: flex;
+}
+
+button {
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
 
 h1, .mid-info, footer {
